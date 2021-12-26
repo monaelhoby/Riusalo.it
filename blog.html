@@ -1,0 +1,250 @@
+<html>
+<head>
+	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+	<meta content="utf-8" http-equiv="encoding">
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap" rel="stylesheet"> 
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<title></title>
+</head>
+<body>
+	<!-- start navbar -->
+	<div class="navbar-header">
+		<div class="container">
+			<div style="display:flex; justify-content: space-between;">
+				<nav class="navbar navbar-expand-lg navbar-light bg-light">
+					<div class="container-fluid">
+						<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<!-- <span class="navbar-toggler-icon"></span> -->
+							<img src="images/menu.png"/>
+						  </button>
+					  <a class="navbar-brand" href="index.html"><img src="./images/Rectangle.png" alt="image"/></a>
+					 
+					  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<img src="images/close.png" class="d-lg-none d-block"/>
+						<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						  <li class="nav-item ">
+							<a class="nav-link " aria-current="page" href="index.html">Home</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link" href="#">Cos’è Riusalo</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link" href="descrizione-riusalo.html">Chi siamo</a>
+						  </li>
+						  <li class="nav-item active">
+							<a class="nav-link" href="blog.html">Blog</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link" href="contatti.html">Contattaci</a>
+						  </li>
+						</ul>
+					  </div>
+					</div>
+				</nav>
+				<div class="header-right">
+					<div class="login">
+						<a href="login.html">
+							<img src="images/admin.png" alt="image"/> <span class="d-md-inline d-none">Accedi</span>
+						</a>
+					</div>
+					<div class="language">
+						<div class="dropdown">
+						<a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+							<img src="images/italy 1.png" /> <img src="images/bottom-arrow.png" class="arrow"/>
+						</a>
+						<ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+							<li><a class="dropdown-item" href="#"><img src="images/italy 1.png" /></a></li>
+							<li><a class="dropdown-item" href="#"><img src="images/italy 1.png" /></a></li>
+						</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- start shuffle -->
+	<div class="shuffle-blog">
+		
+	<!-- <div class="comment-relative"> -->
+		<div class="comment text-center"><img src="images/comment.png" alt="image"/></div>
+	<!-- </div> -->
+	<div class="container">
+		<h3>Blog</h3>
+		<!-- <div class="row"> -->
+		<div class="filters-group-wrap">
+			<div class="filters-group">
+			<!-- <p class="filter-label">Filter</p> -->
+			<div class="btn-group filter-options">
+				<button class="btn btn--primary active" data-group="space">Novità</button>
+				<button class="btn btn--primary" data-group="nature">E-learning</button>
+			</div>
+			</div>
+		</div>
+		<!-- </div> -->
+		<div class="row">
+		<div class="col-12 ">
+			<div class="filters-group">
+			<div class="input-absolute">
+				<img src="images/search.png"/>
+				<label for="filters-search-input" class="filter-label">Cerca news e articoli</label>
+			</div>
+			<input class="textfield filter__search js-shuffle-search" type="search" id="filters-search-input" />
+			<button>Cerca</button>
+			</div>
+		</div>
+		</div>
+	<div id="grid" class="row my-shuffle-container">
+	  <figure class="col-sm-4 col-6 picture-item" data-groups='["nature"]' data-date-created="2017-04-30" data-title="Lake Walchen">
+		<div class="picture-item__inner">
+		  <div class="aspect aspect--16x9">
+			<div class="aspect__inner">
+			  <img src="images/blog/Rectangle 18.png" alt="image" width="100%"/>
+			</div>
+		  </div>
+		  <div class="picture-item__details">
+			<figcaption class="picture-item__title"><a href="" target="_blank" rel="noopener">Articolo 1</a></figcaption>
+			<p class="picture-item__tags hidden@xs">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born...</p>
+		  </div>
+		</div>
+	  </figure>
+	  <figure class="col-sm-4 col-6 picture-item picture-item--overlay" data-groups='["nature"]' data-date-created="2016-07-01" data-title="Golden Gate Bridge">
+		<div class="picture-item__inner">
+		  <img src="images/blog/Rectangle 19.png" alt="image" width="100%" />
+		  <div class="picture-item__details">
+			<figcaption class="picture-item__title"><a href="" target="_blank" rel="noopener">Articolo 2</a></figcaption>
+			<p class="picture-item__tags hidden@xs">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born...</p>
+		  </div>
+		</div>
+	  </figure>
+	  <figure class="col-sm-4 col-6 picture-item" data-groups='["space"]' data-date-created="2016-08-12" data-title="Crocodile">
+		<div class="picture-item__inner">
+		  <div class="aspect aspect--16x9">
+			<div class="aspect__inner">
+			  <img src="images/blog/Rectangle 20.png" alt="image" width="100%"/>
+			</div>
+		  </div>
+		  <div class="picture-item__details">
+			<figcaption class="picture-item__title"><a href="" target="_blank" rel="noopener">Articolo 3</a></figcaption>
+			<p class="picture-item__tags hidden@xs">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born...</p>
+		  </div>
+		</div>
+	  </figure>
+	  <figure class="col-sm-4 col-6 picture-item picture-item--h2" data-groups='["space"]' data-date-created="2016-03-07" data-title="SpaceX">
+		<div class="picture-item__inner">
+		  <div class="aspect aspect--16x9">
+			<div class="aspect__inner">
+			  <img src="images/blog/Rectangle 18.png" alt="image" width="100%"/>
+			</div>
+		  </div>
+		  <div class="picture-item__details">
+			<figcaption class="picture-item__title"><a href="" target="_blank" rel="noopener">Articolo 4</a></figcaption>
+			<p class="picture-item__tags hidden@xs">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born...</p>
+		  </div>
+		</div>
+	  </figure>
+	  <figure class="col-sm-4 col-6 picture-item" data-groups='["nature"]' data-date-created="2016-06-09" data-title="Crossroads">
+		<div class="picture-item__inner">
+		  <div class="aspect aspect--16x9">
+			<div class="aspect__inner">
+			  <img src="images/blog/Rectangle 19.png" alt="image" width="100%"/>
+			</div>
+		  </div>
+		  <div class="picture-item__details">
+			<figcaption class="picture-item__title"><a href="" target="_blank" rel="noopener">Articolo 5</a></figcaption>
+			<p class="picture-item__tags hidden@xs">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born...</p>
+		  </div>
+		</div>
+	  </figure>
+	  <figure class="col-sm-4 col-6 picture-item picture-item--overlay" data-groups='["space","nature"]' data-date-created="2016-06-29" data-title="Milky Way">
+		<div class="picture-item__inner">
+  
+		  <img src="images/blog/Rectangle 20.png" alt="image" width="100%"/>
+		  <div class="picture-item__details">
+			<figcaption class="picture-item__title"><a href="" target="_blank" rel="noopener">Articolo 6</a></figcaption>
+			<p class="picture-item__tags hidden@xs">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born...</p>
+		  </div>
+		</div>
+	  </figure>
+	  <div class="col-1 my-sizer-element"></div>
+	</div>
+	<nav aria-label="Page navigation example text-center">
+		<ul class="pagination">
+		  <!-- <li class="page-item"><a class="page-link" href="#">Previous</a></li> -->
+		  <li class="page-item"><a class="page-link" href="#">1</a></li>
+		  <li class="page-item"><a class="page-link" href="#">2</a></li>
+		  <li class="page-item"><a class="page-link" href="#">3</a></li>
+		  <li class="page-item"><a class="page-link" href="#">4</a></li>
+		  <li class="page-item"><a class="page-link" href="#">..</a></li>
+		  <li class="page-item"><a class="page-link" href="#">44</a></li>
+		  <!-- <li class="page-item"><a class="page-link" href="#">Next</a></li> -->
+		</ul>
+	  </nav>
+  </div>
+	</div>
+
+	<!-- start footer -->
+	<div class="footer">
+		<div class="container">
+			<div class="footer-container">
+				<div class="row">
+					<div class="col-md-3 col-6">
+						<a href="#" class="link">Riusalo.it</a>
+						<ul>
+							<li><a href="#">Cos’è Riusalo</a></li>
+							<li><a href="#">Inserisci oggetto</a></li>
+							<li><a href="#">Ricerca oggetto</a></li>
+							<li><a href="#">Riusalo.it per il sociale</a></li>
+							<li><a href="blog.html">Blog</a></li>
+							<li><a href="term&condition.html">Termini e condizioni</a></li>
+							<li><a href="privacy&policy.html">Privacy Policy</a></li>
+							<li><a href="#">Profilazione</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3 col-6">
+						<a href="#" class="link">Asinco srl</a>
+						<ul>
+							<li><a href="descrizione-riusalo.html">Chi siamo</a></li>
+							<li><a href="contatti.html">Contattaci</a></li>
+						</ul>
+					</div>
+					<div class="col-md-2 offset-md-4 col-6 offset-sm-0 offset-xs-0">
+						<a href="#" class="link">Seguici</a>
+						<ul class="socialmedia-links">
+							<li><a href="#"><i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="copyright text-center">
+					<img src="images/riusalo logo 1.png"/>
+					<p>(c) 2021 Asinco srl P.Iva 0629404023</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+  <!-- Bootstrap plugin -->
+ 
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- jQuery --> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- jQuery easing plugin --> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Shuffle/5.1.1/shuffle.js" type="text/javascript"></script> 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  <script src="./js/shuffle.js"></script>
+  <script src="./js/_script.js" type="text/javascript"></script>
+</html>
